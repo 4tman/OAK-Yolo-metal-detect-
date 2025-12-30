@@ -1,0 +1,30 @@
+{
+    "model": {
+        "xml": "best.xml",
+        "bin": "best.bin"
+    },
+    "nn_config": {
+        "output_format": "detection",
+        "NN_family": "YOLO",
+        "input_size": [1, 224, 224],
+        "NN_specific_metadata": {
+            "classes": 6,
+            "coordinates": 4,
+            "anchors": [],
+            "anchor_masks": {},
+            "iou_threshold": 0.5,
+            "confidence_threshold": 0.5
+        }
+    },
+    "mappings": {
+        "labels": [
+            "crazing",
+            "inclusion",
+            "patches",
+            "pitted_surface",
+            "rolled-in_scale",
+            "scratches"
+        ]
+    },
+    "version": 1
+}
